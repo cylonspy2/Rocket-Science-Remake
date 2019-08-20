@@ -21,11 +21,13 @@ public class SpikeRestart : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
 	{
-		if (other.transform.gameObject.name == player.name)
+
+		
+		if (other.gameObject.tag == "Player")
 		{
-			SceneManager.LoadScene(corn.name);
+		SceneManager.LoadScene(corn.name);
 		}
 	}
 }

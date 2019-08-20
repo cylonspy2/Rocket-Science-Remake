@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 72164314060538679}
   - component: {fileID: 2502658168209532787}
   - component: {fileID: 2502658169510624347}
+  - component: {fileID: 2900918025087940302}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -159,11 +160,11 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.05
+  m_Height: 2.11
   m_Radius: 0.54
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.0001
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2502658168212622195
@@ -322,7 +323,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.99766207
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -416,6 +417,20 @@ MonoBehaviour:
   muzzlePoint: {fileID: 2502658168506291866}
   projectile: {fileID: 7121195682932279705, guid: 4111b7373e73111438dac5fee259fc35,
     type: 3}
+--- !u!136 &2900918025087940302
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2502658168206098067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.67
+  m_Height: 2.15
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2502658168506291865
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3438166755691928792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.013, z: 0}
+  m_LocalPosition: {x: 0, y: 0.027, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2502658168205664947}
