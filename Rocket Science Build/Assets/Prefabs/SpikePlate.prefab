@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3264638790492247050}
   - component: {fileID: 7217565396373486714}
   - component: {fileID: 464670967301612296}
+  - component: {fileID: 6656335219327364548}
   m_Layer: 0
   m_Name: SpikePlate
   m_TagString: Untagged
@@ -88,8 +89,21 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910298161362418383}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1.6, z: 1}
   m_Center: {x: 0, y: 0.3, z: 0}
+--- !u!114 &6656335219327364548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910298161362418383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfad12c20a94043d0a84d5e53a85c063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2502658168206098067, guid: 49c5949df44214d88a2359e61b0d37b6, type: 3}
