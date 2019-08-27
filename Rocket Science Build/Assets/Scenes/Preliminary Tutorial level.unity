@@ -21162,7 +21162,7 @@ PrefabInstance:
     - target: {fileID: 316643268066922168, guid: e5735f574de544203bf09f9ca4a75ff0,
         type: 3}
       propertyPath: x
-      value: Main Menu
+      value: level 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5735f574de544203bf09f9ca4a75ff0, type: 3}
@@ -21545,7 +21545,7 @@ PrefabInstance:
     - target: {fileID: 7653328955788954060, guid: 445cc39bf804f4d198618e40a94911e3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7653328955788954060, guid: 445cc39bf804f4d198618e40a94911e3,
         type: 3}
