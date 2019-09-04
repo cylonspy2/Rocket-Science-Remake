@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerImpact : MonoBehaviour
 {
-    float mass = 0.09f;
+    float mass = 0.15f;
     Vector3 impact = Vector3.zero;
     CharacterController character;
 
