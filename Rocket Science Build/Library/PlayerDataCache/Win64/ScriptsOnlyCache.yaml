@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - PauseMenu1
     - PlayerImpact
     - Projectile
+    - ShowCursor
     - SpikeRestart
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
@@ -56,31 +57,35 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10996}
     - Class: 114
-      Script: {instanceID: 11210}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11218}
     - Class: 114
-      Script: {instanceID: 11638}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11618}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 12246}
+      Script: {instanceID: 11986}
     - Class: 114
-      Script: {instanceID: 12262}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12256}
     - Class: 114
-      Script: {instanceID: 12448}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12278}
     - Class: 114
-      Script: {instanceID: 12682}
+      Script: {instanceID: 12458}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12528}
+    - Class: 114
+      Script: {instanceID: 12692}
+    - Class: 114
+      Script: {instanceID: 12902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -131,39 +136,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10996}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 11052}
     - Class: 114
-      Script: {instanceID: 11090}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11210}
+      Script: {instanceID: 11218}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11356}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11618}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12394}
+      Script: {instanceID: 12404}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12528}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 12644}
     - Class: 114
-      Script: {instanceID: 12740}
+      Script: {instanceID: 12750}
     - Class: 114
-      Script: {instanceID: 12828}
+      Script: {instanceID: 12838}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -177,6 +182,10 @@ ScriptsOnlyBuild:
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -222,37 +231,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10996}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 11052}
     - Class: 114
-      Script: {instanceID: 11090}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11210}
+      Script: {instanceID: 11218}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11356}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11618}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12404}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 12528}
     - Class: 114
-      Script: {instanceID: 12740}
+      Script: {instanceID: 12644}
     - Class: 114
-      Script: {instanceID: 12828}
+      Script: {instanceID: 12750}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12838}
+    - Class: 114
+      Script: {instanceID: 12902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -266,6 +277,10 @@ ScriptsOnlyBuild:
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -486,6 +501,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Cameras
     className: AutoCam
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowCursor
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -1289,5 +1310,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Preliminary Tutorial level.unity
   - Assets/Scenes/level 2.unity
-  playerPath: /Users/rowan/Desktop/portfolio/Rocket-Science-Remake/Rocket Science
-    Build/Rocket Science_Build3/Rocket Science V1.exe
+  playerPath: C:/Users/grlro/Desktop/Rocket-Science-Remake/Rocket Science Build/Builds/Rocket
+    Science Final Build/Rocket Science Final Build.exe
